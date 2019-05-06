@@ -3,26 +3,26 @@ def addition(num1, num2)
 end
 
 def subtraction(num1, num2)
-  puts (10 - 5)
+  10 - 5
 end
 
 def division(num1, num2)
-  puts (50 / 2).to_i
+  50 / 2
 end
 
 def multiplication(num1, num2)
-  puts (4 * 30).to_i
+  4 * 30
 end
 
 def modulo(num1, num2)
-  puts (34 % 5).to_i
+  34 % 5
 end
 
 def square_root(num)
-  puts Math.sqrt(81).to_i
+  Math.sqrt(81).to_i
 end
 
 def order_of_operation(num1, num2, num3, num4)
   #Hint:  __ + (( __ * __ ) / __ )
-  puts (7 + ((43 * 23)/ 83)).to_i
+  7 + ((43 * 23)/ 83)
 end
